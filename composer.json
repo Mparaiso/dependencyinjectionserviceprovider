@@ -1,0 +1,31 @@
+{
+  "name": "mparaiso/dependencyinjectionserviceprovider",
+  "description": "Dependency injection service provider for Silex",
+  "keywords": [
+    "silex",
+    "extensions",
+    "container",
+    "dependency-injection"
+  ],
+  "homepage": "https://github.com/Mparaiso/dependencyinjectionserviceprovider",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MParaiso",
+      "email": "mparaiso@online.fr"
+    }
+  ],
+  "require-dev": {
+    "silex/silex": "*"
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/dependency-injection":"2.2.*"
+  },
+  "suggest": {},
+  "autoload": {
+    "psr-0": {
+      "Mparaiso": "src/"
+    }
+  }
+}
